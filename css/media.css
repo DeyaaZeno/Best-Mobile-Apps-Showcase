@@ -1,0 +1,467 @@
+@media (min-width: 350px) and (max-width: 483.98px){
+    body{
+        width: 100%;
+    }
+    .page-header .navbar{
+        padding: 10px 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 10px 20px;
+    }
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .editT{
+        font-size: 40px;
+    }
+    .lorem{
+        max-width: 90%;
+        font-size: 13px;
+    }
+    .rightMar{
+        text-align: center;
+    }
+    .btnType{
+        margin: auto auto 40px auto;
+        font: bold;
+        width: 170px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+    }
+    .box-1{ 
+        margin-left: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    .abtPos{
+        display: flex;
+        justify-content: center;
+    }
+    .viewSec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .lineSpace{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sec5-pos{
+        display: flex;
+        flex-direction: row;
+    }
+    .numCol{
+        position: absolute;
+        top: 90px;
+        left: 240px;
+        z-index: 1212;
+    }
+    .secSend{
+        margin: auto;
+    }
+    .up-btn{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        background-color: #2375D6;
+        color: #FFF;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        position: fixed;
+        bottom: 60px;
+        right: 30px;
+        z-index: 111;
+        border-radius: 50%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .4s ease-in-out;
+    }
+    .banner-sec{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../img/Path_137252.png) no-repeat;
+        background-size: 100% 100vh;
+        width: 473px;
+        padding-top: 110px;
+    }
+    .sec3-p2{
+        font-size: 13px;
+        color: #2B2A29;
+    } 
+    #section-4{
+        position: relative;
+        margin-left: 65px;
+    }
+    .sec4-prg{
+        width: 80%;
+    }
+    #section-5{
+        width: 473px;
+    }
+    #section-6{
+        width: 473px;
+        margin-top: 300px;
+    }
+    #contact{
+        width: 473px;
+    }
+    #footer{
+        width: 473px;
+    }
+    #section-3{
+        width: 473px;
+    }
+    .innerLarge{
+        display: none;
+    }
+    .mediumLarge{
+        display: none;
+    }
+    .innerSmoll{
+        display: block;
+    }
+    .sec4-prg{
+        width: 100%;
+    }
+    .sec5-tit{
+        text-align: center;
+    }
+    .pos{
+        text-align: center;    
+        width: 100%;
+    }
+    .numCol{
+        z-index: -1;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 484px) and (max-width: 575.98px){
+    .page-header{
+        z-index: 12121212;
+    }
+    .page-header .navbar{
+        padding: 10px 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 10px 20px;
+    }
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .editT{
+        font-size: 40px;
+    }
+    .lorem{
+        max-width: 90%;
+        font-size: 13px;
+    }
+    .rightMar{
+        text-align: center;
+    }
+    .btnType{
+        margin-bottom: 40px;
+        font: bold;
+        width: 170px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+    }
+    .box-1{ 
+        margin: auto;
+    }
+    .abtPos{
+        display: flex;
+        justify-content: center;
+    }
+    .viewSec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .lineSpace{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sec5-pos{
+        display: flex;
+        flex-direction: row;
+    }
+    #section-6{
+        margin-top: 300px;
+    }
+    .numCol{
+        position: absolute;
+        top: 90px;
+        left: 240px;
+        z-index: 121212;
+    }
+    .secSend{
+        margin: auto;
+    }
+    .innerLarge{
+        display: none;
+    }
+    .mediumLarge{
+        display: none;
+    }
+    .innerSmoll{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        top: 130px;
+        left: 30px;
+    }
+    .right-btn{
+        position: absolute;
+        top: 130px;
+        right: 30px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    .page-header .navbar{
+        padding: 10px 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 10px 20px;
+    }
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .editT{
+        font-size: 45px;
+    }
+    .lorem{
+        max-width: 90%;
+        font-size: 14px;
+    }
+    .rightMar{
+        text-align: center;
+    }
+    .btnType{
+        margin-bottom: 40px;
+        font: bold;
+        width: 180px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+    }
+    .box-1{ 
+        margin: auto;
+    }
+    .abtPos{
+        display: flex;
+        justify-content: center;
+    }
+    .viewSec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .lineSpace{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sec5-pos{
+        display: flex;
+        flex-direction: row;
+    }
+    #section-6{
+        margin-top: 300px;
+    }
+    .numCol{
+        position: absolute;
+        top: 90px;
+        left: 270px;
+        z-index: 121212;
+    }
+    .innerLarge{
+        display: none;
+    }
+    .mediumLarge{
+        display: none;
+    }
+    .innerSmoll{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        top: 130px;
+        left: 60px;
+    }
+    .right-btn{
+        position: absolute;
+        top: 130px;
+        right: 60px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .page-header .navbar{
+        padding: 10px 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 10px 20px;
+    }
+
+    .page-header .navbar .navigation{
+        display: none;
+    }
+
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .editT{
+        font-size: 50px;
+    }
+    .lorem{
+        max-width: 90%;
+        font-size: 15px;
+    }
+    .rightMar{
+        text-align: center;
+    }
+    .btnType{
+        margin-bottom: 40px;
+        font: bold;
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+    }
+    .box-1{ 
+        margin: auto;
+    }
+    .sec3-tit{
+        font-size: 40px;
+        color: #2375D6;
+        margin-top: 70px;
+    }
+    .sec3-prg{
+        font-size: 13px;
+        color: #131313;
+        margin-bottom: 60px;
+        line-height: 1.8;
+    }
+    .sec3-p2{
+        font-size: 13px;
+        color: #2B2A29;
+    }
+    .abtPos{
+        display: flex;
+        justify-content: center;
+    }
+    .numCol{
+        position: absolute;
+        top: 90px;
+        left: 365px;
+        z-index: 121212;
+    }
+    .innerLarge{
+        display: none;
+    }
+    .mediumLarge{
+        display: block;
+    }
+    .innerSmoll{
+        display: none;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .editT{
+        font-size: 50px;
+    }
+    .lorem{
+        max-width: 90%;
+        font-size: 15px;
+    }
+    .rightMar{
+        text-align: center;
+    }
+    .btnType{
+        margin-bottom: 40px;
+        font: bold;
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+    }
+    .navbar .navigation .link-item{
+        margin-right: 20px;
+    }
+    .box-1{ 
+        margin: auto;
+    }
+    .abtPos{
+        display: flex;
+        justify-content: center;
+    }
+    .numCol{
+        position: absolute;
+        top: 90px;
+        left: 480px;
+        z-index: 121212;
+    }
+    .mediumLarge{
+        display: none;
+    }
+    .innerSmoll{
+        display: none;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){ 
+    .mediumLarge{
+        display: none;
+    }
+    .innerSmoll{
+        display: none;
+    }
+}
